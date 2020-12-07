@@ -1,0 +1,52 @@
+
+    /* this is part I */
+    .center-box{
+        width: 950px;
+        background-color: navy;
+        height: 200px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .center-item{
+        width: 75px;
+        background-color: yellow;
+        display: inline;
+        margin: 60px;
+    }
+
+    /*this is part II */
+   A:link {text-decoration: none; color: white;}
+   A:visited {text-decoration: none; color: white;}
+   A:hover {text-decoration: none; color: white;}
+   A:active {text-decoration: none; color: white;}
+
+   #menu{
+    width: 950px;
+    background-color: rgb(109, 172, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   h1, li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-display: fallback;
+   }
+
+   #image{
+       width: 75px;
+       margin: 15px;
+   }
+
+   #list{
+       display: inline-block;
+       margin-left: 20px;
+       margin-right: 40px;
+   }
+ 
