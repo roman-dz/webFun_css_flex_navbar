@@ -1,4 +1,9 @@
-
+/*Browser compatibility Minimalistic Reset - Version 1 included*/
+* {
+	padding: 0;
+	margin: 0;
+	}
+    
     /* this is part I */
     .center-box{
         width: 950px;
@@ -7,6 +12,8 @@
         margin-bottom: 20px;
         display: flex;
         justify-content: center;
+        margin-left: 10px;
+        margin-top: 10px;
     }
     .center-item{
         width: 75px;
@@ -27,6 +34,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 10px;
    }
 
    h1, li{
